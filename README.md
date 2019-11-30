@@ -1,6 +1,6 @@
 # sallm.in
-Simple Personal Presentation Webpage build with HTML, CSS, jQuery, Bootstrap
+Simple Personal Presentation Webpage.
 
 Feel free to use it and do whatever you find convenient.
 
-Demo: https://sallm.in
+Live: http://sallm.in
