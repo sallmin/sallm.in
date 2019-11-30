@@ -3,8 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="description" content="simple personal presentation website">
-<meta name="keywords" content="technology,html,css,bootstrap,javascript,jquery,php,mysql,laravel,ajax,json,IoT,git,wp,linux,digital electronics,analog electronics,personal site,backend,web development,fullstack,sallmin,prizren">
+<meta name="description" content="Personal webpage :) ">
 <meta name="author" content="sallm.in">
 
 <link rel="icon" href="favicon.ico">
@@ -30,79 +29,36 @@
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 <link href="assets/css/main.css" rel="stylesheet">
-<!-- Google Analytics -->
+
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-60259703-7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)};
+  gtag('js', new Date());
+
+  gtag('config', 'UA-60259703-7');
+</script>
+
+
 </head>
 
 <body>
     <div class="mainDiv">
-      <h1>sallm.in</h1>
-      <br /><br />
+        <h2>sallm.in</h2>
+        <h5>Web Application Developer</h5>
+        <h6><a href="https://exam.laravelcert.com/is/salmin-rexha/certified-since/2019-11-19" target="_blank">Laravel certified</a></h6>
+
+       <br />
         <div id="listing">
-           <a href="#" id="showProjects">Webpages</a> | 
-           <a href="https://github.com/sallmin" target="_blank">GitHub</a> |
-           <a href="#" id="showMessage">CodeCanyon</a> |
-           <a href="cv/">CV</a> 
+           <a class="text-danger" href="https://github.com/sallmin" target="_blank">github</a>
+           <a class="text-danger" href="https://twitter.com/sallminrexha" target="_blank">twitter</a>
+           <a class="text-danger" href="https://www.facebook.com/sallm.in" target="_blank">facebook</a>
+           <a class="text-danger" href="https://www.linkedin.com/in/sallminrexha/" target="_blank">linkedin</a>
         </div>
-        <span id="message" hidden>
-            !soon ...
-        </span>
-        <span id="projects" hidden>
-          <br>
-          <ul class="list-inline" style="list-style: none;">
-              <li class="list-inline-item"><a href="http://www.noron.eu" target="_blank">noron</a></li>
-              <li class="list-inline-item"><a href="http://www.kosovaonline.net" target="_blank">kosovaonline</a></li>
-              <li class="list-inline-item"><a href="http://www.cityalarm.net" target="_blank">cityalarm</a></li>
-              <li class="list-inline-item"><a href="http://www.dpperfumumks.com" target="_blank">dpperfumum</a></li>
-              <li class="list-inline-item"><a href="http://www.kbox-pz.com" target="_blank">kbox prizreni</a></li>
-              <li class="list-inline-item"><a href="http://www.saturncctv.com" target="_blank">saturncctv</a></li>
-              <li class="list-inline-item"><a href="http://www.pastrim-kimik.com" target="_blank">pastrim kimik</a></li>
-              <li class="list-inline-item"><a href="http://www.konstruktor-ks.net" target="_blank">konstruktor</a></li>
-          </ul>
-        </span>
-       <br /><br />
-       <a href="https://www.facebook.com/sallm.in" target="_blank"><img src="assets/img/social/fb.png" height="50px" width="50px"></a>
-       <a href="https://twitter.com/sallminrexha" target="_blank"><img src="assets/img/social/twitter.png" height="50px" width="50px"></a>
-       <a href="https://medium.com/@sallminrexha" target="_blank"><img src="assets/img/social/medium.png" height="50px" width="50px"></a>
-       <a href="#" id="skypeEmail" "><img src="assets/img/social/skype.png" height="40px" width="40px"></a>
-      <span id="showSkypeEmail" hidden="hidden"><br>sallmin.rexha@hotmail.com</span><br>
-        <small>hi@sallm.in</small>
+        <br />
+        <small>hi[at]sallm.in</small>
     </div>
-<script
-  src="https://code.jquery.com/jquery-3.2.1.js"
-  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
-  crossorigin="anonymous"></script>
-<script>
-    $(document).ready(function(){
-        $('#showProjects').click(function(){
-            if($('#projects').attr('hidden') == "hidden"){
-                $('#projects').removeAttr('hidden');
-                $('#message').attr('hidden', 'hidden');
-            }
-            else{
-                $('#projects').attr('hidden', 'hidden');
-            }
-        });
-
-        $('#showMessage').click(function(){
-            if($('#message').attr('hidden') == "hidden"){
-                $('#message').removeAttr('hidden');
-                $('#projects').attr('hidden', 'hidden');
-            }
-            else{
-                $('#message').attr('hidden', 'hidden');
-            }
-        });
-
-        $('#skypeEmail').click(function(){
-            if($('#showSkypeEmail').attr('hidden') == "hidden"){
-                $('#showSkypeEmail').removeAttr('hidden');
-            }
-            else{
-                $('#showSkypeEmail').attr('hidden', 'hidden');
-            }
-        });
-
-    });
-</script>
 </body>
 </html>
